@@ -41,6 +41,12 @@ public class EmpDao {
 				Emp e = new Emp();
 				e.setEmpno(rs.getInt("empno"));
 				e.setEname(rs.getString("ename"));
+				e.setJob(rs.getString("job"));
+				e.setMgr(rs.getInt("mgr"));
+				e.setHiredate(rs.getDate("hiredate"));
+				e.setSal(rs.getDouble("sal"));
+				e.setComm(rs.getDouble("comm"));
+				e.setDeptno(rs.getInt("deptno"));
 				
 				list.add(e);
 			}

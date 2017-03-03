@@ -1,20 +1,9 @@
-package com.example.domain;
-
-import java.util.List;
+package com.example.mapper;
 
 public class Dept {
 	int deptno;
 	String dname;
 	String loc;
-	
-	List<Emp> emp;
-	
-	public List<Emp> getEmp() {
-		return emp;
-	}
-	public void setEmp(List<Emp> emp) {
-		this.emp = emp;
-	}
 	public int getDeptno() {
 		return deptno;
 	}
